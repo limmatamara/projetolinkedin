@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body{
-    font-style: roboto;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .container {
@@ -31,8 +31,9 @@ header > img {
 
 header ul{
     display: flex;
-    margin-left: 10px;
+    margin-left: -100px;
     align-items: center;
+    
 }
 
 header ul li{
@@ -40,15 +41,58 @@ header ul li{
     align-items: center;
     flex-direction: column;
     margin-left: 20px;
+    
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #181818;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-left: 44px;
+}
+
+header ul li i{
+    font-size: 18px;
+    color: #181818;
+    margin-left: 44px;
 }
 
 nav{
     display: flex;
 }
 
+form {
+    margin-left: 70px;
+    margin-top: 10px;
+}
+
+form a i{
+    margin-right: 10px ;
+    color: #0275B1;
+    font-size: 22px;    
+}
+
+form input{
+    border-style: none;
+    margin: 10px;
+    padding: 10px 40px;
+}
+
 header div img {
     display: flex;
     width: 42px;
+    
 }
 
+.cabecalho{
+    padding: 10px 10px;
+    /* margin-left: ; */
+    max-width: 200px;
+}
+
+
+.imagemcanto{
+    margin-left: 75px;
+}
 
