@@ -2,6 +2,7 @@
 
 body{
     font-family: 'Open Sans', sans-serif;
+    background-color: #e5e5e5;
 }
 
 .container {
@@ -10,17 +11,20 @@ body{
 }
 
 main {
-    max-width: 60%;
+    max-width: 70%;
     /* background-color: slategray; */
 }
 
-
+h1 {
+    font-size: 15px;
+}
 
 header {
+    background-color: white;
     display: flex;
     height: 80px;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 
 header > img {
@@ -48,17 +52,17 @@ header ul li a{
     color: #181818;
     font-weight: bold;
     margin-top: 12px;
-    margin-left: 44px;
+    margin-left: 60px;
 }
 
 header ul li i{
     font-size: 18px;
     color: #181818;
-    margin-left: 44px;
+    margin-left: 60px;
 }
 
 nav{
-    display: flex;
+    display: flex; 
 }
 
 form {
@@ -89,16 +93,109 @@ header div img {
 
 .cabecalho{
     padding: 10px 10px;
-    /* margin-left: ; */
-    max-width: 200px;
+    max-width: 20%;
+
+}
+
+.cabecalho> small, i {
+    color: #02B033;
+}
+
+
+
+.imagem-canto{
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 30%;
+}
+
+.cabecalho > div{
+    display: flex;
+    align-items: center;
     
 }
 
-.you {
-    margin-top: -18px;
+.cabecalho div > small{
+    margin-left: 10px;
+    color: rgba(24, 24, 24, 0.2);
+   
 }
 
-.imagemcanto{
-    margin-left: 75px;
+
+.other {
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+    margin-left: 130px;
+    align-items: center;
+    font-weight: bold;
+
 }
 
+.other > span {
+    margin-top: 15px;
+}
+
+.other > i{
+    color: #181818;
+}
+
+
+/* ----- PROFILE ----- */
+
+
+ 
+ .background {
+     background-image: url(./Imagens/Background.jpg);
+     width: 100%;
+     
+ }
+
+ .profile-up div{
+     display: flex;
+ }
+
+ .edit {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    background-color: white;
+    padding: 0px 20px;
+    margin: 20px 30px;
+ }
+
+ .edit > p{
+     margin-left: 10px;
+ }
+
+ .edit > i{
+     color: #181818;
+ }
+
+ .upload-icon {
+    display: flex;
+    margin: 20px 30px;
+     
+ }
+
+ .upload-icon > i{
+     display: flex;
+     
+    color:#181818;
+ }
+
+ .file-up{
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+
+
+ /* ----- ABOUT ----- */
+
+ .about {
+     width: 100%;
+     /* padding: 30px; */
+     background-color: white;
+ }
+ 
