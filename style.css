@@ -14,6 +14,41 @@ main {
     /* background-color: slategray; */
 }
 
-.background{
-    /* background-image: url(/projetolinkedin/Imagens/Background.jpg); */
+
+
+header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-between;
 }
+
+header > img {
+    width: 46px;
+    height: 46px;
+    margin: 40px 17px;
+}
+
+header ul{
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+header ul li{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+nav{
+    display: flex;
+}
+
+header div img {
+    display: flex;
+    width: 42px;
+}
+
+
