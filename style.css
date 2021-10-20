@@ -27,6 +27,7 @@ header > img {
     width: 46px;
     height: 46px;
     margin: 40px 17px;
+    margin-right: 120px;
 }
 
 header ul{
@@ -68,7 +69,9 @@ form {
 }
 
 form a i{
+    position: absolute;
     margin-right: 10px ;
+    margin-top: 15px;
     color: #0275B1;
     font-size: 22px;    
 }
@@ -77,6 +80,7 @@ form input{
     border-style: none;
     margin: 10px;
     padding: 10px 40px;
+    outline-style: none;
 }
 
 header div img {
@@ -89,8 +93,12 @@ header div img {
     padding: 10px 10px;
     /* margin-left: ; */
     max-width: 200px;
+    
 }
 
+.you {
+    margin-top: -18px;
+}
 
 .imagemcanto{
     margin-left: 75px;
