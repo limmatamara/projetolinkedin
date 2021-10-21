@@ -395,13 +395,18 @@ header div img {
 
  .skills .skill-box > div span {
      color: #0275B1;
-     margin-left: 20px;
+     margin-left: 10px;
      font-weight: bold;
  }
 
+ 
+
  .skills .skill-box img {
-     width: 150px;     
+     width: 150px;   
+     margin-top: 20px;  
+     margin-left: 20px;
  }
+ 
 
  .skills a  {
     text-decoration: none;
@@ -428,6 +433,13 @@ header div img {
      display: flex;
     
  }
+
+ .experience .exp-img span {
+    color: #0275B1;
+    font-weight: bold;
+    margin-left: 20px;
+   
+}
 
  .experience .exp-img img {
      width: 80px;
