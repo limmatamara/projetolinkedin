@@ -1,13 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+
 body{
     font-family: 'Open Sans', sans-serif;
     background-color: #e5e5e5;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 1200px;
 }
 
 main {
@@ -89,6 +87,12 @@ header div img {
     display: flex;
     width: 42px;
     
+}
+
+.container {
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
 }
 
 .cabecalho{
@@ -193,9 +197,334 @@ header div img {
 
  /* ----- ABOUT ----- */
 
+ .botoes button {
+     margin-top: 2%;
+     padding: 10px 15px;
+     margin-left: 0;
+}
  .about {
-     width: 100%;
-     /* padding: 30px; */
+    background-color: white;
+    padding: 10px;    
+    border-radius: 4px;
+ }
+
+ .about h2 {
+     padding: 2%;
+     font-size: 18px;
+     font-weight: bolder;
+ }
+
+ .about p{
+     margin-left: 2%;
+     font-size: 14px;
+     margin-bottom: 3%;
+ }
+
+ .about a {
+     text-decoration: none;
+     color: #0275B1;
+     font-weight: bold;
+     font-size: small;
+     margin-left: 2%;
+     margin-bottom: 3%;  
+     
+ }
+
+ .projects {
+     background-color: white;
+     margin-top: 2%;
+     padding: 20px;
+     border-radius: 4px;
+ }
+
+ .projects > .projects-topo {
+     display: flex;
+     align-items: center;
+     
+ }
+
+ .projects > .projects-topo span {
+    color: #E5E5E5;
+ }
+
+ .projects h3 {
+    padding: 2%;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+.projects .projects-img  {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 2%;
+ }
+
+ .projects .projects-img > div img {
+     margin-bottom: 10px;
+ }
+
+ .projects .projects-img h2 {
+     margin-bottom: 5px;
+     font-size: 14px;
+     font-weight: bold;
+ }
+
+ .projects .projects-img small {
+    color: #E5E5E5;
+    font-size: 10px;
+}
+
+.projects a {
+    text-decoration: none;
+    color: #0275B1;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 2%;    
+}
+
+.skills {
+    background-color: white;
+    margin-top: 2%;
+    border-radius: 4px;
+    padding-bottom: 20px;
+}
+
+.skills h3 {
+    padding: 30px 0px 24px 30px;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+ .skills .skill-box {
+     display: flex;
+     margin: 2%;
+     justify-content: space-around;
+ }
+
+ .skills .skill-box > div {
+    border: 1px solid #E5E5E5;
+    border-radius: 6px;
+    padding: 14px 20px;
+    margin-bottom: 3%;
+    width: 25%;
+ }
+
+ .skills .skill-box > div span {
+     color: #0275B1;
+     margin-left: 20px;
+     font-weight: bold;
+ }
+
+ .skills .skill-box img {
+     width: 150px;     
+ }
+
+ .skills a  {
+    text-decoration: none;
+    color: #0275B1;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 3%;
+ }  
+ 
+ .experience {
+     background-color: white;
+     margin-top: 2%;
+     padding-bottom: 20px;
+     border-radius: 4px;
+ }
+
+ .experience h3 {
+    padding: 30px 0px 24px 30px;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+ .experience .exp-img {
+     display: flex;
+    
+ }
+
+ .experience .exp-img img {
+     width: 80px;
+     height: 64px;
+     margin-left: 30px;
+     margin-top: 30px;
+ }
+
+ .experience .exp-img small , p {
+     margin-left: 27px;
+ }
+
+ .education {
+     background-color: white;
+     margin-top: 2%;
+     padding-bottom: 20px;
+     border-radius: 4px;
+ }
+
+ .education h3 {
+    padding: 30px  0px 24px 20px;
+    font-size: 18px;
+    font-weight: bolder;
+ }
+
+ .education .edu {
+     display: flex;
+    
+ }
+
+ .education .edu img {
+    width: 70px;
+    height: 60px;
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+
+ .education p {
+     font-weight: 100 lighter;
+    
+ }
+
+ .education small {
+     margin-left: 25px;
+ }
+
+ aside {
+     width: 28%;
+     margin-left: 2%;
+ }
+
+ .dashboard {
      background-color: white;
  }
+
+.dashboard .dash {
+       display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    font-weight: bold;
+    font-size: small;
+    margin-left: 2%;
+    margin-bottom: 3%;  
+}
+
+.dashboard .dash a {
+    text-decoration: none;
+    color: #0275B1;
+}
+
+.dashboard span {
+    margin-left: 25px;
+    font-size: 52px;
+    color:#0275B1;
+}
+
+.dashboard p {
+    font-size: 14px;
+    padding-bottom: 31px;
+}
+
+.visitors {
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.visitors .visit {
+    display: flex;
+    justify-content: space-around;
+}
+
+.visitors h3 {
+    font-weight: bold;
+    font-size: small;
+    margin-top: 25px;
+    margin-left: 2%; 
+    padding: 15px 0px 20px 20px;
+}
+
+.visitors .visit a {
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 15px 0px 20px 20px;
+    text-decoration: none;
+    color: #0275B1;    
+}
+
+.visit-photo {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.visit-photo img {
+    margin-right: 15px;
+}
+
+.visit-photo h2 {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.visit-photo small {
+    margin-top: 5px;
+    font-size: 10px;
+}
+
+.visit-photo h3 {
+    font-weight: bold;
+    font-size: small;
+    margin-left: 2%;
+    margin-bottom: 3%; 
+}
+
+.courses {
+    margin-top: 20px;
+    background-color: white;
+    padding-bottom: 28px;
+}
+
+.courses h3 {
+    font-weight: bold;
+    font-size: small;
+    text-align: center;
+    padding: 30px 0 20px 20px;
+}
+
+.courses .courses-info {
+    display: flex;
+    align-items: center;
+}
+
+.courses .courses-info h4 {
+    font-size: 14px;
+    font-weight: bolder;
+    padding-bottom: 5px;
+}
+
+.courses .courses-info small {
+    font-size: 10px;
+}
+
+.courses .courses-info img {
+    padding: 20px 15px 19px 30px;
+}
+
+.courses a {
+    margin-top: 25px;
+    font-size: 12px;
+    font-weight: bolder;
+    padding: 15px 0px 20px 28px;
+    text-decoration: none;
+    color: #0275B1;   
+}
+
+
+
+ 
+ 
+
  
