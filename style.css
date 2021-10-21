@@ -22,6 +22,7 @@ header {
     display: flex;
     height: 80px;
     align-items: center;
+    margin-bottom: 40px;
     /* justify-content: space-between; */
 }
 
@@ -397,6 +398,7 @@ header div img {
 
  .dashboard {
      background-color: white;
+     border-radius: 4px;
  }
 
 .dashboard .dash {
@@ -429,6 +431,7 @@ header div img {
     margin-top: 20px;
     background-color: white;
     padding-bottom: 30px;
+    border-radius: 4px;
 }
 
 .visitors .visit {
@@ -485,6 +488,7 @@ header div img {
     margin-top: 20px;
     background-color: white;
     padding-bottom: 28px;
+    border-radius: 4px;
 }
 
 .courses h3 {
@@ -510,7 +514,8 @@ header div img {
 }
 
 .courses .courses-info img {
-    padding: 20px 15px 19px 30px;
+    margin: 20px 15px 19px 30px;
+    border-radius: 3px;
 }
 
 .courses a {
@@ -523,8 +528,114 @@ header div img {
 }
 
 
+/* Footer */
 
- 
- 
+footer {
+    display: flex;
+    height: 215px;
+    max-width: 100%;
+    background-color: white;
+    margin-top: 40px;
 
- 
+}
+
+.imagem-linkedin > img{
+    margin-top: 15px;
+}
+
+.imagem-linkedin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.container-footer{
+    padding: 30px;
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+} 
+
+.container-footer nav span{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+
+.container-footer ul li{
+    padding: 10px;
+    font-size: 12px;
+    /* background-color: red; */
+}
+
+.container-footer ul{
+    max-height: 86px;
+    width: 200px;
+}
+
+.container-footer nav{
+    display: flex;
+    margin-left: 30px;
+    flex-direction: column;
+}
+
+.container-footer nav div{
+    margin-top: 30px;
+    display: flex;
+}
+
+.footer-btn{
+    display: flex;
+}
+
+.footer-btn div{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.footer-btn div span{
+    font-size: 12px;
+    margin-left: 10px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.footer-btn div i{
+    margin-left: 40px;
+}
+
+.footer-btn div button{
+    padding: 8px 5px 8px 20px;
+    border-radius: 4px;
+    border: 1px solid #0275B1;
+    margin: 10px;
+    
+}
+
+.footer-btn1{
+    background: #0275B1;
+    color: white;
+}
+
+.footer-btn1  i{
+    color: white;
+}
+
+.footer-btn2 i{
+    color:#0275B1;
+}
+
+.footer-btn2{
+    color:#0275B1;
+}
+
+footer form select{
+    padding: 8px 149px 8px 10px;
+}
+
+.footer-btn .footer-language span{
+    margin-left: 70px;
+}
