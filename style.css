@@ -160,12 +160,28 @@ header div img {
      display: flex;
  }
 
+ .background .contact {
+    background-color: white;
+    margin-top: 95px;    
+ }
+
+ .background .contact-text {
+     margin-left: 200px;
+ }
+
+ .img-absolute img {
+     margin-top: -25px;
+     border-radius: 50%;
+     position: absolute;
+     
+ }
+
  .edit {
     display: flex;
     align-items: center;
     border-radius: 10px;
-    background-color: white;
-    padding: 0px 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 15px 20px;
     margin: 20px 30px;
  }
 
@@ -175,6 +191,31 @@ header div img {
 
  .edit > i{
      color: #181818;
+     transform: rotate(90deg);
+ }
+
+ .contact-name{
+     display: flex;
+     padding: 25px 0px 15px 0px;
+ }
+
+ .contact-name img {
+     margin-left: 8px;
+     margin-right: 300px;
+ }
+
+ .contact-name i {
+     margin-right: 10px;
+     color: #0275B1;
+ }
+
+ .contact-name h1 {
+     font-size: 18px;
+     font-weight: bold;
+ }
+
+ .contact-text > small {
+     font-size: 14px;
  }
 
  .upload-icon {
@@ -193,7 +234,49 @@ header div img {
      display: flex;
      justify-content: space-between;
  }
+
+ .btn-perfil {
+     margin: 30px 200px;
+     padding-bottom: 30px;
+ }
+
+ .btn-perfil button {
+     margin-right: 14px;
+     padding: 8px 42px;
+     border: 1px solid #0275B1;
+     border-radius: 4px;
+     font-size: 12px;
+     font-weight: bold;
+ }
  
+ .botoes {
+     border-radius: 4px; 
+ }
+
+ .botoes button {
+     margin: 0px  -5px;
+     padding: 20px 120px;
+     border: 1px solid #e7e7e7;
+     background-color: white;
+     border-radius: 4px; 
+ }
+
+ .botoes .botoes-btn {
+     padding: 10px 60px;
+     font-size: 12px;
+     border-radius: 4px;
+     font-weight: bold;
+ }
+
+ .botoes .botoes-btn1 {
+     padding: 10px 60px;
+     background-color: #0275B1;
+     color: white;
+     border: 1px solid #0275B1;
+     border-radius: 4px; 
+     font-size: 12px;
+     font-weight: bold;
+ }
 
 
  /* ----- ABOUT ----- */
